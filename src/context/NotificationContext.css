@@ -1,0 +1,17 @@
+/* Tùy chỉnh chung cho tất cả các toast */
+.Toastify__toast-body {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; /* Ví dụ: Thay đổi font chữ */
+    align-items: center;
+}
+
+/* Tùy chỉnh icon bên trong toast */
+.Toastify__toast-body > .Toastify__toast-icon {
+    margin-right: 12px; /* Tăng khoảng cách giữa icon và nội dung */
+    width: 24px; /* Đảm bảo kích thước icon nhất quán */
+    height: 24px;
+}
+
+/* Tùy chỉnh màu sắc nếu bạn không muốn dùng theme="colored" */
+/* .Toastify__toast--success { background-color: #e8f5e9 !important; color: #2e7d32 !important; }
+.Toastify__toast--error { background-color: #ffebee !important; color: #c62828 !important; }
+.Toastify__toast--warning { background-color: #fff8e1 !important; color: #f9a825 !important; } */

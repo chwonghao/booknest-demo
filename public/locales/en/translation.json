@@ -1,0 +1,245 @@
+{
+  "header": {
+    "searchPlaceholder": "Find your next book...",
+    "suggestions": "Suggestions",
+    "products": "Products",
+    "welcome": "Welcome to BookNest!",
+    "createAccount": "Create a new account",
+    "login": "Login"
+  },
+  "profile": {
+    "myDetails": "My Details",
+    "myOrders": "My Orders",
+    "settings": "Settings",
+    "logout": "Logout",
+    "myAccountDetails": "My Account Details",
+    "emailAddress": "Email Address",
+    "fullName": "Full Name",
+    "phoneNumber": "Phone Number",
+    "avatar": "Avatar",
+    "address": "Address",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "updateSuccess": "Profile updated successfully!",
+    "updateError": "Failed to update profile.",
+    "role": "Role",
+    "switchToUserView": "Switch to User View",
+    "switchToAdminView": "Switch to Admin View"
+  },
+  "auth": {
+    "loginFailed": "Incorrect email or password.",
+    "registerFailed": "Registration failed. Email may already exist.",
+    "sessionExpired": "Your session has expired. Please log in again.",
+    "accountBanned": "Your account has been banned. Please contact support.",
+    "accountInactive": "Your account is inactive or has not been activated."
+  },
+  "orders": {
+    "noOrders": "You have no orders yet."
+  },
+  "footer": {
+    "brand": "BookNest",
+    "tagline": "Your one-stop shop for all the books you love. Discover new worlds, one page at a time.",
+    "customerService": "Customer Service",
+    "contactUs": "Contact Us",
+    "returnPolicy": "Return Policy",
+    "aboutUs": "About Us",
+    "ourStory": "Our Story",
+    "careers": "Careers",
+    "followUs": "Follow Us",
+    "copyright": "© {{year}} BookNest. All Rights Reserved."
+  },
+  "cart": {
+    "title": "My Shopping Cart",
+    "itemCount": "{{count}} Item",
+    "itemCount_plural": "{{count}} Items",
+    "empty": {
+      "title": "Your cart is currently empty.",
+      "subtitle": "Looks like you haven't added anything to your cart yet."
+    },
+    "continueShopping": "Continue Shopping",
+    "summary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal ({{count}} items)",
+      "shipping": "Shipping",
+      "free": "FREE",
+      "total": "Total",
+      "loginPrompt": "Please login to continue checkout."
+    },
+    "proceedToCheckout": "Proceed to Checkout",
+    "unavailableItems": "Unavailable Items",
+    "outOfStock": "This item is out of stock and has been removed from your subtotal.",
+    "stockIssue": "Only {{stock}} left in stock. Please adjust the quantity.",
+    "removeItem": "Remove item from cart"
+  },
+  "home": {
+    "featuredBooks": "Featured Books",
+    "categories": "Categories",
+    "promotionBanner": "Promotion Banner"
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email Address",
+    "password": "Password",
+    "signIn": "Sign In",
+    "noAccount": "Don't have an account? Sign Up",
+    "forgotPassword": "Forgot Password?",
+    "quickLoginDevOnly": "Quick Login (For Development)",
+    "loginAsUser": "Login as User",
+    "loginAsAdmin": "Login as Admin",
+    "googleLoginFailed": "Login with Google failed. Please try again.",
+    "or": "OR",
+    "validation": {
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Email address is not valid.",
+      "passwordRequired": "Password is required."
+    }
+  },
+  "register": {
+    "title": "Sign Up",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "signUp": "Sign Up",
+    "haveAccount": "Already have an account? Sign In",
+    "passwordMismatch": "Passwords do not match.",
+    "success": "Registration successful! Redirecting to login page...",
+    "validation": {
+      "fullNameRequired": "Full Name is required.",
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Email address is not valid.",
+      "passwordRequired": "Password is required.",
+      "passwordMinLength": "Password must be at least 6 characters.",
+      "confirmPasswordRequired": "Confirm Password is required."
+    }
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "addedToCart": "{{name}} has been added to your cart!",
+    "outOfStock": "Out of Stock",
+    "unknownAuthor": "Unknown Author"
+  },
+  "productPage": {
+    "fetchError": "Failed to fetch product details. Please try again later.",
+    "notFound": "Product not found.",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "byAuthor": "by {{authors}}",
+    "reviews": "reviews",
+    "quantity": "Quantity",
+    "addToCart": "Add to Cart",
+    "publisher": "Publisher",
+    "published": "Published",
+    "pages": "Pages",
+    "language": "Language",
+    "isbn": "ISBN",
+    "ratingDistribution": "Rating Distribution",
+    "ratings": "ratings",
+    "stars": "{{count}} star",
+    "stockRemaining": "{{count}} in stock",
+    "image": "Image",
+    "description": "Description",
+    "price": "Price",
+    "discount": "Discount",
+    "name": "Name",
+    "author": "Author",
+    "categories": "Categories"
+  },
+  "productsListPage": {
+    "title": "All Products",
+    "fetchError": "Could not fetch products. Please try again later.",
+    "searchResultsFor": "Search results for",
+    "noResults": "No Products Found",
+    "noResultsSubtitle": "We couldn't find any products matching your criteria. Try a different filter or search term."
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shippingInfo": "Shipping Information",
+    "paymentMethod": "Payment Method",
+    "cod": "Cash on Delivery (COD)",
+    "paypal": "PayPal (Coming Soon)",
+    "placeOrder": "Place Order",
+    "orderPlacedSuccess": "Your order has been placed successfully!",
+    "noItems": "Your cart is empty. Please add items before checking out."
+  },
+  "admin": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "products": "Products",
+      "orders": "Orders",
+      "users": "Users"
+    },
+    "dashboard": "Admin Dashboard",
+    "welcome": "Welcome to the admin dashboard. Select a section from the sidebar to get started.",
+    "accessDenied": "You do not have permission to access this page.",
+    "dashboardPage": {
+      "title": "Dashboard",
+      "totalRevenue": "Total Revenue",
+      "totalOrders": "Total Orders",
+      "newCustomers": "New Customers",
+      "productsInStock": "Products In Stock",
+      "weeklyRevenue": "Weekly Revenue",
+      "sales": "Sales ($)",
+      "orderStatusRatio": "Order Status Ratio",
+      "lowStockProducts": "Low Stock Products",
+      "onlyLeft": "Only {{count}} left",
+      "noLowStockProducts": "No products are running low on stock.",
+      "recentLogins": "Recent Logins",
+      "loggedInAt": "Logged in at: {{date}}",
+      "noRecentLogins": "No recent login activity.",
+      "recentOrders": "Recent Orders",
+      "order": "Order",
+      "noRecentOrders": "No recent orders.",
+      "fetchError": "Could not load dashboard data. Please try again."
+    },
+    "orderManagementPage": {
+      "title": "Order Management",
+      "searchPlaceholder": "Search by Customer or ID",
+      "allStatuses": "All Statuses",
+      "fetchError": "Failed to fetch orders. Please try again.",
+      "loadProductDetailsError": "Could not load product details.",
+      "updateSuccess": "Order status updated successfully!",
+      "updateError": "Failed to update order status.",
+      "orderDetails": "Order Details",
+      "updateStatus": "Update Status"
+    },
+    "productManagementPage": {
+      "title": "Product Management",
+      "addNewProduct": "Add New Product",
+      "fetchError": "Failed to fetch products. Please try again.",
+      "updateSuccess": "Product updated successfully!",
+      "addSuccess": "Product added successfully!",
+      "saveError": "Failed to save product.",
+      "searchPlaceholder": "Search by product name",
+      "allCategories": "All Categories"
+    },
+    "userManagementPage": {
+      "title": "User Management",
+      "fetchError": "Failed to fetch users. Please try again.",
+      "staff": "Staff",
+      "customers": "Customers",
+      "noUsersInCategory": "No users found in this category.",
+      "editUser": "Edit User",
+      "updateSuccess": "User updated successfully!",
+      "updateError": "Failed to update user."
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "subtitle": "Sorry, the page you are looking for could not be found.",
+    "goHome": "Go to Homepage"
+  }
+,
+  "breadcrumbs": {
+    "home": "Home",
+    "products": "Products",
+    "cart": "Cart",
+    "profile": "Profile",
+    "checkout": "Checkout"
+  },
+  "action": {
+    "cancel":"Cancel",
+    "confirm": "Confirm",
+    "saveChanges": "Save Changes"
+  }
+}
