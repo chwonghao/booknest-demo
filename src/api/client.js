@@ -8,7 +8,7 @@ const client = axios.create({
 // Sử dụng interceptor để tự động đính kèm token vào mỗi request
 client.interceptors.request.use(
   (config) => {
-    const token = localStorage.getItem("authToken");
+    const token = localStorage.getItem("jwtToken");
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
     }

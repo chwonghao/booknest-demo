@@ -48,6 +48,18 @@ const createMockToken = (user, expiresInMinutes = 15) => {
     return `${header}.${payload}.${signature}`;
 };
 
+// Helper to simulate decoding a JWT. In a real app, this is done on the backend.
+const mockJwtDecode = (token) => {
+    if (!token || token.split('.').length < 2) return null;
+    try {
+        // Decode the payload part of the token
+        const payload = JSON.parse(atob(token.split('.')[1]));
+        return payload;
+    } catch (e) {
+        return null; // Invalid token format
+    }
+};
+
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 const simulateApiError = (message, status = 400) => {
@@ -87,23 +99,32 @@ export const registerApi = async (userData) => {
     return { success: true, message: "Đăng ký thành công!" };
 };
 
-export const profileApi = async (userEmail, token) => {
+export const profileApi = async () => {
     await delay(200);
-    console.log("MOCK: profileApi for email:", userEmail);
+    // In a real app, the backend gets the user from the Authorization header.
+    // In this mock, we'll simulate it by reading the token from localStorage.
+    const token = localStorage.getItem("jwtToken");
+    const decoded = mockJwtDecode(token);
+    const userEmail = decoded ? decoded.sub : null;
+
+    console.log("MOCK: profileApi for email from token:", userEmail);
     const user = mockUsers.find(u => u.email === userEmail);
+
     if (user) {
-        return user;
+        const { password, ...userProfile } = user;
+        return userProfile;
     }
     throw simulateApiError("User profile not found", 404);
 };
 
 export const updateProfileApi = async (userId, payload) => {
     await delay(400);
-    console.log("MOCK: updateProfileApi", { userId, payload });
+    console.log("MOCK: updateProfileApi for userId:", userId, "with payload:", payload);
     const userIndex = mockUsers.findIndex(u => u.id === userId);
     if (userIndex > -1) {
         mockUsers[userIndex] = { ...mockUsers[userIndex], ...payload };
-        return mockUsers[userIndex];
+        const { password, ...userProfile } = mockUsers[userIndex];
+        return userProfile;
     }
     throw simulateApiError("User not found", 404);
 };

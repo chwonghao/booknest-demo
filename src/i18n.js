@@ -10,7 +10,7 @@ i18n
   .init({
     supportedLngs: ['en', 'vi'],
     fallbackLng: 'en',
-    debug: false,
+    debug: process.env.NODE_ENV === 'development',
     detection: {
       order: ['localStorage', 'navigator'], 
       caches: ['localStorage'],
