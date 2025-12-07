@@ -82,6 +82,12 @@
     "password": "Password",
     "signIn": "Sign In",
     "noAccount": "Don't have an account? Sign Up",
+    "forgotPassword": "Forgot Password?",
+    "quickLoginDevOnly": "Quick Login (For Development)",
+    "loginAsUser": "Login as User",
+    "loginAsAdmin": "Login as Admin",
+    "googleLoginFailed": "Login with Google failed. Please try again.",
+    "or": "OR",
     "validation": {
       "emailRequired": "Email is required.",
       "emailInvalid": "Email address is not valid.",

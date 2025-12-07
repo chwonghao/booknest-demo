@@ -83,6 +83,11 @@
     "signIn": "Đăng nhập",
     "noAccount": "Chưa có tài khoản? Đăng ký",
     "forgotPassword": "Quên mật khẩu?",
+    "quickLoginDevOnly": "Đăng nhập nhanh (Cho phát triển)",
+    "loginAsUser": "Đăng nhập với tư cách Người dùng",
+    "loginAsAdmin": "Đăng nhập với tư cách Quản trị viên",
+    "googleLoginFailed": "Đăng nhập bằng Google thất bại. Vui lòng thử lại.",
+    "or": "HOẶC",
     "validation": {
       "emailRequired": "Vui lòng nhập email.",
       "emailInvalid": "Địa chỉ email không hợp lệ.",
