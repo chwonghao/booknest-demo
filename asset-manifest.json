@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/booknest-demo/static/css/main.71bd2b48.css",
-    "main.js": "/booknest-demo/static/js/main.cc1f764d.js",
+    "main.js": "/booknest-demo/static/js/main.74e1d813.js",
     "static/css/838.473abfb8.chunk.css": "/booknest-demo/static/css/838.473abfb8.chunk.css",
     "static/js/838.b1b4bc24.chunk.js": "/booknest-demo/static/js/838.b1b4bc24.chunk.js",
     "static/js/361.ff894287.chunk.js": "/booknest-demo/static/js/361.ff894287.chunk.js",
-    "static/js/570.cbeb1988.chunk.js": "/booknest-demo/static/js/570.cbeb1988.chunk.js",
+    "static/js/570.7ba58c8c.chunk.js": "/booknest-demo/static/js/570.7ba58c8c.chunk.js",
     "static/js/115.f0ad341d.chunk.js": "/booknest-demo/static/js/115.f0ad341d.chunk.js",
     "static/js/325.feecd2c1.chunk.js": "/booknest-demo/static/js/325.feecd2c1.chunk.js",
     "static/js/592.3ebbbe3d.chunk.js": "/booknest-demo/static/js/592.3ebbbe3d.chunk.js",
@@ -27,11 +27,11 @@
     "static/js/644.80041cb3.chunk.js": "/booknest-demo/static/js/644.80041cb3.chunk.js",
     "index.html": "/booknest-demo/index.html",
     "main.71bd2b48.css.map": "/booknest-demo/static/css/main.71bd2b48.css.map",
-    "main.cc1f764d.js.map": "/booknest-demo/static/js/main.cc1f764d.js.map",
+    "main.74e1d813.js.map": "/booknest-demo/static/js/main.74e1d813.js.map",
     "838.473abfb8.chunk.css.map": "/booknest-demo/static/css/838.473abfb8.chunk.css.map",
     "838.b1b4bc24.chunk.js.map": "/booknest-demo/static/js/838.b1b4bc24.chunk.js.map",
     "361.ff894287.chunk.js.map": "/booknest-demo/static/js/361.ff894287.chunk.js.map",
-    "570.cbeb1988.chunk.js.map": "/booknest-demo/static/js/570.cbeb1988.chunk.js.map",
+    "570.7ba58c8c.chunk.js.map": "/booknest-demo/static/js/570.7ba58c8c.chunk.js.map",
     "115.f0ad341d.chunk.js.map": "/booknest-demo/static/js/115.f0ad341d.chunk.js.map",
     "325.feecd2c1.chunk.js.map": "/booknest-demo/static/js/325.feecd2c1.chunk.js.map",
     "592.3ebbbe3d.chunk.js.map": "/booknest-demo/static/js/592.3ebbbe3d.chunk.js.map",
@@ -54,6 +54,6 @@
   },
   "entrypoints": [
     "static/css/main.71bd2b48.css",
-    "static/js/main.cc1f764d.js"
+    "static/js/main.74e1d813.js"
   ]
 }

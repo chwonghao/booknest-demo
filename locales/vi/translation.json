@@ -238,6 +238,14 @@
     "subtitle": "Xin lỗi, trang bạn đang tìm kiếm không tồn tại.",
     "goHome": "Về trang chủ"
   },
+  "forgotPassword": {
+    "title": "Quên Mật Khẩu",
+    "subtitle": "Nhập email của bạn và chúng tôi sẽ gửi cho bạn một liên kết để đặt lại mật khẩu.",
+    "sendLink": "Gửi liên kết đặt lại",
+    "sending": "Đang gửi...",
+    "successMessage": "Nếu email của bạn tồn tại trong hệ thống, bạn sẽ nhận được một liên kết để đặt lại mật khẩu.",
+    "requestSent": "Yêu cầu đã được gửi thành công!"
+  },
   "breadcrumbs": {
     "home": "Trang chủ",
     "products": "Sản phẩm",
