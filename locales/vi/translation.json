@@ -1,0 +1,248 @@
+{
+  "header": {
+    "searchPlaceholder": "Tìm cuốn sách tiếp theo của bạn...",
+    "suggestions": "Gợi ý",
+    "products": "Sản phẩm",
+    "welcome": "Chào mừng đến BookNest!",
+    "createAccount": "Tạo tài khoản mới",
+    "login": "Đăng nhập"
+  },
+  "profile": {
+    "myDetails": "Thông tin của tôi",
+    "myOrders": "Đơn hàng của tôi",
+    "settings": "Cài đặt",
+    "logout": "Đăng xuất",
+    "myAccountDetails": "Chi tiết tài khoản",
+    "emailAddress": "Địa chỉ Email",
+    "fullName": "Họ và Tên",
+    "phoneNumber": "Số điện thoại",
+    "avatar": "Ảnh đại diện",
+    "address": "Địa chỉ",
+    "saveChanges": "Lưu thay đổi",
+    "saving": "Đang lưu...",
+    "updateSuccess": "Cập nhật thông tin thành công!",
+    "updateError": "Cập nhật thông tin thất bại.",
+    "role": "Vai trò",
+    "switchToUserView": "Chuyển sang chế độ người dùng",
+    "switchToAdminView": "Chuyển sang chế độ quản trị"
+  },
+  "auth": {
+    "loginFailed": "Email hoặc mật khẩu không đúng.",
+    "registerFailed": "Đăng ký không thành công. Email có thể đã tồn tại.",
+    "sessionExpired": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.",
+    "accountBanned": "Tài khoản của bạn đã bị khóa. Vui lòng liên hệ bộ phận hỗ trợ.",
+    "accountInactive": "Tài khoản của bạn không hoạt động hoặc chưa được kích hoạt."
+  },
+  "orders": {
+    "noOrders": "Bạn chưa có đơn hàng nào."
+  },
+  "footer": {
+    "brand": "BookNest",
+    "tagline": "Nơi dừng chân cho mọi cuốn sách bạn yêu thích. Khám phá những thế giới mới, qua từng trang sách.",
+    "customerService": "Chăm sóc khách hàng",
+    "contactUs": "Liên hệ",
+    "returnPolicy": "Chính sách đổi trả",
+    "aboutUs": "Về chúng tôi",
+    "ourStory": "Câu chuyện",
+    "careers": "Tuyển dụng",
+    "followUs": "Theo dõi chúng tôi",
+    "copyright": "© {{year}} BookNest. Đã đăng ký bản quyền."
+  },
+  "cart": {
+    "title": "Giỏ hàng của tôi",
+    "itemCount": "{{count}} sản phẩm",
+    "itemCount_plural": "{{count}} sản phẩm",
+    "empty": {
+      "title": "Giỏ hàng của bạn đang trống.",
+      "subtitle": "Có vẻ như bạn chưa thêm sản phẩm nào vào giỏ hàng."
+    },
+    "continueShopping": "Tiếp tục mua sắm",
+    "summary": {
+      "title": "Tóm tắt đơn hàng",
+      "subtotal": "Tạm tính ({{count}} sản phẩm)",
+      "shipping": "Phí vận chuyển",
+      "free": "MIỄN PHÍ",
+      "total": "Tổng cộng",
+      "loginPrompt": "Vui lòng đăng nhập để tiếp tục thanh toán."
+    },
+    "proceedToCheckout": "Tiến hành thanh toán",
+    "unavailableItems": "Sản phẩm không có sẵn",
+    "outOfStock": "Sản phẩm này đã hết hàng và được loại khỏi tổng tiền.",
+    "stockIssue": "Chỉ còn {{stock}} sản phẩm trong kho. Vui lòng điều chỉnh lại số lượng.",
+    "removeItem": "Xóa sản phẩm khỏi giỏ hàng"
+  },
+  "home": {
+    "featuredBooks": "Sách nổi bật",
+    "categories": "Danh mục",
+    "promotionBanner": "Quảng cáo"
+  },
+  "login": {
+    "title": "Đăng nhập",
+    "email": "Địa chỉ Email",
+    "password": "Mật khẩu",
+    "signIn": "Đăng nhập",
+    "noAccount": "Chưa có tài khoản? Đăng ký",
+    "forgotPassword": "Quên mật khẩu?",
+    "validation": {
+      "emailRequired": "Vui lòng nhập email.",
+      "emailInvalid": "Địa chỉ email không hợp lệ.",
+      "passwordRequired": "Vui lòng nhập mật khẩu."
+    }
+  },
+  "register": {
+    "title": "Đăng ký",
+    "fullName": "Họ và Tên",
+    "email": "Địa chỉ Email",
+    "password": "Mật khẩu",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "signUp": "Đăng ký",
+    "haveAccount": "Đã có tài khoản? Đăng nhập",
+    "passwordMismatch": "Mật khẩu không khớp.",
+    "success": "Đăng ký thành công! Đang chuyển đến trang đăng nhập...",
+    "validation": {
+      "fullNameRequired": "Vui lòng nhập họ và tên.",
+      "emailRequired": "Vui lòng nhập email.",
+      "emailInvalid": "Địa chỉ email không hợp lệ.",
+      "passwordRequired": "Vui lòng nhập mật khẩu.",
+      "passwordMinLength": "Mật khẩu phải có ít nhất 6 ký tự.",
+      "confirmPasswordRequired": "Vui lòng xác nhận mật khẩu."
+    }
+  },
+  "product": {
+    "addToCart": "Thêm vào giỏ",
+    "addedToCart": "Đã thêm {{name}} vào giỏ hàng!",
+    "outOfStock": "Hết hàng",
+    "unknownAuthor": "Tác giả không xác định"
+  },
+  "productPage": {
+    "fetchError": "Không thể tải chi tiết sản phẩm. Vui lòng thử lại sau.",
+    "notFound": "Không tìm thấy sản phẩm.",
+    "inStock": "Còn hàng",
+    "outOfStock": "Hết hàng",
+    "byAuthor": "bởi {{authors}}",
+    "reviews": "đánh giá",
+    "quantity": "Số lượng",
+    "addToCart": "Thêm vào giỏ hàng",
+    "publisher": "Nhà xuất bản",
+    "published": "Ngày xuất bản",
+    "pages": "Số trang",
+    "language": "Ngôn ngữ",
+    "isbn": "ISBN",
+    "ratingDistribution": "Phân phối đánh giá",
+    "ratings": "lượt xếp hạng",
+    "stars": "{{count}} sao",
+    "stockRemaining": "Còn lại {{count}} sản phẩm",
+    "image": "Ảnh sản phẩm",
+    "description": "Mô tả",
+    "price": "Giá",
+    "discount": "Giảm giá",
+    "name": "Tên sản phẩm",
+    "author": "Tác giả",
+    "categories": "Danh mục"
+  },
+  "productsListPage": {
+    "title": "Tất cả sản phẩm",
+    "fetchError": "Không thể tải danh sách sản phẩm. Vui lòng thử lại sau.",
+    "searchResultsFor": "Kết quả tìm kiếm cho",
+    "noResults": "Không tìm thấy sản phẩm nào",
+    "noResultsSubtitle": "Chúng tôi không tìm thấy sản phẩm nào phù hợp với tiêu chí của bạn. Vui lòng thử bộ lọc hoặc từ khóa khác."
+  },
+  "checkout": {
+    "title": "Thanh toán",
+    "shippingInfo": "Thông tin giao hàng",
+    "paymentMethod": "Phương thức thanh toán",
+    "cod": "Thanh toán khi nhận hàng (COD)",
+    "paypal": "PayPal (Sắp có)",
+    "placeOrder": "Đặt hàng",
+    "orderPlacedSuccess": "Đơn hàng của bạn đã được đặt thành công!",
+    "noItems": "Giỏ hàng của bạn đang trống. Vui lòng thêm sản phẩm trước khi thanh toán."
+  },
+  "admin": {
+    "sidebar": {
+      "dashboard": "Bảng điều khiển",
+      "products": "Sản phẩm",
+      "orders": "Đơn hàng",
+      "users": "Người dùng"
+    },
+    "dashboard": "Bảng điều khiển Quản trị",
+    "welcome": "Chào mừng đến với bảng điều khiển quản trị. Chọn một mục từ thanh bên để bắt đầu.",
+    "accessDenied": "Bạn không có quyền truy cập trang này.",
+    "dashboardPage": {
+      "title": "Bảng điều khiển",
+      "totalRevenue": "Tổng doanh thu",
+      "totalOrders": "Tổng đơn hàng",
+      "newCustomers": "Khách hàng mới",
+      "productsInStock": "Sản phẩm trong kho",
+      "weeklyRevenue": "Doanh thu tuần",
+      "sales": "Doanh số ($)",
+      "orderStatusRatio": "Tỷ lệ trạng thái đơn hàng",
+      "lowStockProducts": "Sản phẩm sắp hết hàng",
+      "onlyLeft": "Chỉ còn {{count}}",
+      "noLowStockProducts": "Không có sản phẩm nào sắp hết hàng.",
+      "recentLogins": "Đăng nhập gần đây",
+      "loggedInAt": "Đăng nhập lúc: ",
+      "noRecentLogins": "Không có hoạt động đăng nhập nào gần đây.",
+      "recentOrders": "Đơn hàng gần đây",
+      "order": "Đơn",
+      "noRecentOrders": "Không có đơn hàng nào gần đây.",
+      "fetchError": "Không thể tải dữ liệu cho bảng điều khiển. Vui lòng thử lại."
+    },
+    "orderManagementPage": {
+      "title": "Quản lý Đơn hàng",
+      "searchPlaceholder": "Tìm theo Khách hàng hoặc ID",
+      "allStatuses": "Tất cả trạng thái",
+      "fetchError": "Không thể tải danh sách đơn hàng. Vui lòng thử lại.",
+      "loadProductDetailsError": "Không thể tải chi tiết sản phẩm.",
+      "updateSuccess": "Cập nhật trạng thái đơn hàng thành công!",
+      "updateError": "Cập nhật trạng thái đơn hàng thất bại.",
+      "orderDetails": "Chi tiết Đơn hàng",
+      "updateStatus": "Cập nhật Trạng thái"
+    },
+    "productManagementPage": {
+      "title": "Quản lý Sản phẩm",
+      "addNewProduct": "Thêm sản phẩm mới",
+      "fetchError": "Không thể tải danh sách sản phẩm. Vui lòng thử lại.",
+      "updateSuccess": "Cập nhật sản phẩm thành công!",
+      "addSuccess": "Thêm sản phẩm thành công!",
+      "saveError": "Lưu sản phẩm thất bại.",
+      "searchPlaceholder": "Tìm theo tên sản phẩm",
+      "allCategories": "Tất cả danh mục"
+    },
+    "userManagementPage": {
+      "title": "Quản lý Người dùng",
+      "fetchError": "Không thể tải danh sách người dùng. Vui lòng thử lại.",
+      "staff": "Nhân viên",
+      "customers": "Khách hàng",
+      "noUsersInCategory": "Không tìm thấy người dùng trong danh mục này.",
+      "editUser": "Chỉnh sửa người dùng",
+      "updateSuccess": "Cập nhật người dùng thành công!",
+      "updateError": "Cập nhật người dùng thất bại.",
+      "sendEmail": "Gửi Email",
+      "sendEmailTo": "Gửi Email tới",
+      "emailSubject": "Chủ đề",
+      "emailContent": "Nội dung",
+      "send": "Gửi",
+      "sending": "Đang gửi...",
+      "emailSentSuccess": "Đã gửi email thành công tới",
+      "emailSentError": "Gửi email thất bại.",
+      "emailFormInvalid": "Vui lòng nhập chủ đề và nội dung email."
+    }
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "subtitle": "Xin lỗi, trang bạn đang tìm kiếm không tồn tại.",
+    "goHome": "Về trang chủ"
+  },
+  "breadcrumbs": {
+    "home": "Trang chủ",
+    "products": "Sản phẩm",
+    "cart": "Giỏ hàng",
+    "profile": "Hồ sơ",
+    "checkout": "Thanh toán"
+  },
+  "action": {
+    "cancel":"Hủy",
+    "confirm": "Xác nhận",
+    "saveChanges": "Lưu thay đổi"
+  }
+}
