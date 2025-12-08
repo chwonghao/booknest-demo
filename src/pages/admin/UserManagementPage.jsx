@@ -230,7 +230,7 @@ const UserManagementPage = () => {
         <DialogActions>
           <Button onClick={handleCloseModal}>{t('action.cancel')}</Button>
           <Button onClick={handleOpenEmailModal} color="primary">{t('admin.userManagementPage.sendEmail')}</Button>
-          <Button onClick={handleSaveUser} variant="contained">{t('profile.saveChanges')}</Button>
+          <Button onClick={handleSaveUser} variant="contained">{t('action.saveChanges')}</Button>
         </DialogActions>
       </Dialog>
 
