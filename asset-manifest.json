@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://chwonghao.github.io/booknest-demo/static/css/main.71bd2b48.css",
-    "main.js": "https://chwonghao.github.io/booknest-demo/static/js/main.5e469aea.js",
+    "main.js": "https://chwonghao.github.io/booknest-demo/static/js/main.80cf612d.js",
     "static/css/838.473abfb8.chunk.css": "https://chwonghao.github.io/booknest-demo/static/css/838.473abfb8.chunk.css",
     "static/js/838.b1b4bc24.chunk.js": "https://chwonghao.github.io/booknest-demo/static/js/838.b1b4bc24.chunk.js",
     "static/js/361.ff894287.chunk.js": "https://chwonghao.github.io/booknest-demo/static/js/361.ff894287.chunk.js",
@@ -16,7 +16,7 @@
     "static/js/888.8b0fd492.chunk.js": "https://chwonghao.github.io/booknest-demo/static/js/888.8b0fd492.chunk.js",
     "static/js/312.c414a2e7.chunk.js": "https://chwonghao.github.io/booknest-demo/static/js/312.c414a2e7.chunk.js",
     "static/js/241.323f41c5.chunk.js": "https://chwonghao.github.io/booknest-demo/static/js/241.323f41c5.chunk.js",
-    "static/js/444.125baff3.chunk.js": "https://chwonghao.github.io/booknest-demo/static/js/444.125baff3.chunk.js",
+    "static/js/444.e8a32401.chunk.js": "https://chwonghao.github.io/booknest-demo/static/js/444.e8a32401.chunk.js",
     "static/js/38.9d20c140.chunk.js": "https://chwonghao.github.io/booknest-demo/static/js/38.9d20c140.chunk.js",
     "static/js/795.b73f50ec.chunk.js": "https://chwonghao.github.io/booknest-demo/static/js/795.b73f50ec.chunk.js",
     "static/js/375.accce51f.chunk.js": "https://chwonghao.github.io/booknest-demo/static/js/375.accce51f.chunk.js",
@@ -27,7 +27,7 @@
     "static/js/644.80041cb3.chunk.js": "https://chwonghao.github.io/booknest-demo/static/js/644.80041cb3.chunk.js",
     "index.html": "https://chwonghao.github.io/booknest-demo/index.html",
     "main.71bd2b48.css.map": "https://chwonghao.github.io/booknest-demo/static/css/main.71bd2b48.css.map",
-    "main.5e469aea.js.map": "https://chwonghao.github.io/booknest-demo/static/js/main.5e469aea.js.map",
+    "main.80cf612d.js.map": "https://chwonghao.github.io/booknest-demo/static/js/main.80cf612d.js.map",
     "838.473abfb8.chunk.css.map": "https://chwonghao.github.io/booknest-demo/static/css/838.473abfb8.chunk.css.map",
     "838.b1b4bc24.chunk.js.map": "https://chwonghao.github.io/booknest-demo/static/js/838.b1b4bc24.chunk.js.map",
     "361.ff894287.chunk.js.map": "https://chwonghao.github.io/booknest-demo/static/js/361.ff894287.chunk.js.map",
@@ -42,7 +42,7 @@
     "888.8b0fd492.chunk.js.map": "https://chwonghao.github.io/booknest-demo/static/js/888.8b0fd492.chunk.js.map",
     "312.c414a2e7.chunk.js.map": "https://chwonghao.github.io/booknest-demo/static/js/312.c414a2e7.chunk.js.map",
     "241.323f41c5.chunk.js.map": "https://chwonghao.github.io/booknest-demo/static/js/241.323f41c5.chunk.js.map",
-    "444.125baff3.chunk.js.map": "https://chwonghao.github.io/booknest-demo/static/js/444.125baff3.chunk.js.map",
+    "444.e8a32401.chunk.js.map": "https://chwonghao.github.io/booknest-demo/static/js/444.e8a32401.chunk.js.map",
     "38.9d20c140.chunk.js.map": "https://chwonghao.github.io/booknest-demo/static/js/38.9d20c140.chunk.js.map",
     "795.b73f50ec.chunk.js.map": "https://chwonghao.github.io/booknest-demo/static/js/795.b73f50ec.chunk.js.map",
     "375.accce51f.chunk.js.map": "https://chwonghao.github.io/booknest-demo/static/js/375.accce51f.chunk.js.map",
@@ -54,6 +54,6 @@
   },
   "entrypoints": [
     "static/css/main.71bd2b48.css",
-    "static/js/main.5e469aea.js"
+    "static/js/main.80cf612d.js"
   ]
 }
