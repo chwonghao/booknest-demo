@@ -100,8 +100,8 @@ const SearchOverlay = ({ suggestions, results, onResultClick }) => {
                                     borderRadius: 1,
                                     objectFit: 'cover'
                                 }} />
-                            <ListItemText primary={prod.name} secondary={prod.author} />
-                            <Typography variant="body1">${prod.price}</Typography>
+                            <ListItemText primary={prod.name} secondary={prod.author?.name} />
+                            <Typography variant="body1" sx={{ ml: 2 }}>${prod.price}</Typography>
                         </ListItemButton>
                     ))}
                 </List>

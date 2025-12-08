@@ -36,30 +36,6 @@ const mockUsers = [
 ];
 let nextUserId = 4;
 
-const createMockToken = (user, expiresInMinutes = 15) => {
-    const header = btoa(JSON.stringify({ alg: "HS256", typ: "JWT" }));
-    const payload = btoa(JSON.stringify({ 
-        sub: user.email, 
-        role: user.role, 
-        iat: Math.floor(Date.now() / 1000),
-        exp: Math.floor(Date.now() / 1000) + (expiresInMinutes * 60)
-    }));
-    const signature = "mock-signature";
-    return `${header}.${payload}.${signature}`;
-};
-
-// Helper to simulate decoding a JWT. In a real app, this is done on the backend.
-const mockJwtDecode = (token) => {
-    if (!token || token.split('.').length < 2) return null;
-    try {
-        // Decode the payload part of the token
-        const payload = JSON.parse(atob(token.split('.')[1]));
-        return payload;
-    } catch (e) {
-        return null; // Invalid token format
-    }
-};
-
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 const simulateApiError = (message, status = 400) => {
@@ -73,10 +49,13 @@ export const loginApi = async ({ email, password }) => {
     console.log("MOCK: loginApi", { email, password });
     const user = mockUsers.find(u => u.email === email);
 
-    if (user && password === "password123") { // Mật khẩu test: "password"
-        const accessToken = createMockToken(user, 15);
-        const refreshToken = `refresh-for-${user.email}`;
-        return { accessToken, refreshToken };
+    if (user && user.password === password) {
+        if (user.status === 'BANNED') {
+            throw simulateApiError("Tài khoản này đã bị khóa.", 403);
+        }
+        // Trả về thông tin người dùng, loại bỏ mật khẩu
+        const { password, ...userProfile } = user;
+        return userProfile;
     }
     throw simulateApiError("Email hoặc mật khẩu không đúng.", 401);
 };
@@ -101,20 +80,22 @@ export const registerApi = async (userData) => {
 
 export const profileApi = async () => {
     await delay(200);
-    // In a real app, the backend gets the user from the Authorization header.
-    // In this mock, we'll simulate it by reading the token from localStorage.
-    const token = localStorage.getItem("jwtToken");
-    const decoded = mockJwtDecode(token);
-    const userEmail = decoded ? decoded.sub : null;
+    // Thay vì dùng token, ta đọc trực tiếp email của người dùng từ localStorage
+    // (Giả định rằng AuthContext sẽ lưu 'userEmail' sau khi đăng nhập thành công)
+    const userEmail = localStorage.getItem("userEmail");
 
-    console.log("MOCK: profileApi for email from token:", userEmail);
+    if (!userEmail) {
+        return null; // Không có người dùng nào đang đăng nhập
+    }
+
+    console.log("MOCK: profileApi for email from localStorage:", userEmail);
     const user = mockUsers.find(u => u.email === userEmail);
 
     if (user) {
         const { password, ...userProfile } = user;
         return userProfile;
     }
-    throw simulateApiError("User profile not found", 404);
+    throw simulateApiError("Không tìm thấy hồ sơ người dùng.", 404);
 };
 
 export const updateProfileApi = async (userId, payload) => {
@@ -127,18 +108,4 @@ export const updateProfileApi = async (userId, payload) => {
         return userProfile;
     }
     throw simulateApiError("User not found", 404);
-};
-
-export const refreshTokenApi = async (refreshToken) => {
-    await delay(300);
-    console.log("MOCK: refreshTokenApi");
-    if (refreshToken && refreshToken.startsWith('refresh-for-')) {
-        const email = refreshToken.replace('refresh-for-', '');
-        const user = mockUsers.find(u => u.email === email);
-        if (user) {
-            const newAccessToken = createMockToken(user, 15);
-            return { accessToken: newAccessToken };
-        }
-    }
-    throw simulateApiError("Invalid refresh token", 401);
 };

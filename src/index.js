@@ -11,7 +11,7 @@ import theme from './theme';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter base="/booknest-demo">
+    <BrowserRouter basename="/booknest-demo">
       <ThemeProvider theme={theme}>
         <NotificationProvider>
           <AuthProvider>

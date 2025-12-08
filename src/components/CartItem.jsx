@@ -66,7 +66,10 @@ const CartItem = ({ item }) => {
             </Link>
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {item.authors}
+            {/* FIX: `item.authors` is an array of objects. Map to names. */}
+            {(Array.isArray(item.authors) && item.authors.length > 0)
+              ? item.authors.map(author => author.name).join(', ')
+              : ''}
           </Typography>
           <Typography variant="h6" color="primary.main" sx={{ mt: 1 }}>
             {formatPrice(item.price)}

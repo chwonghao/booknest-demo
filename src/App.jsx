@@ -51,7 +51,7 @@ const AppRoutes = () => {
         <Routes location={location} key={location.pathname}>
           {/* Main Layout Routes */}
           <Route element={<MainLayout />}>
-            <Route index path="/" element={<Suspense fallback={null}><AnimatedPage><IndexPage /></AnimatedPage></Suspense>} />
+            <Route index element={<Suspense fallback={null}><AnimatedPage><IndexPage /></AnimatedPage></Suspense>} />
             <Route path="/products/:id" element={<Suspense fallback={null}><AnimatedPage><ProductPage /></AnimatedPage></Suspense>} />
             <Route path="/products" element={<Suspense fallback={null}><AnimatedPage><ProductsListPage /></AnimatedPage></Suspense>} />
             <Route path="/login" element={<Suspense fallback={null}><AnimatedPage><LoginPage /></AnimatedPage></Suspense>} />

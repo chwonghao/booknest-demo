@@ -145,28 +145,26 @@ const LoginPage = () => {
             {t('login.signIn')}
           </Button>
 
-          {/* Quick Login for Dev */}
-          {process.env.NODE_ENV === 'development' && (
-            <Box sx={{ my: 2, display: 'flex', flexDirection: 'column', gap: 1 }}>
-              <Typography variant="caption" color="text.secondary" align="center">
-                {t('login.quickLoginDevOnly')}
-              </Typography>
-              <Button
-                variant="outlined"
-                size="small"
-                onClick={() => handleQuickLogin('user@example.com', 'password123')}
-              >
-                {t('login.loginAsUser')}
-              </Button>
-              <Button
-                variant="outlined"
-                size="small"
-                onClick={() => handleQuickLogin('admin@example.com', 'password123')}
-              >
-                {t('login.loginAsAdmin')}
-              </Button>
-            </Box>
-          )}
+          {/* Quick Login for Demo */}
+          <Box sx={{ my: 2, display: 'flex', flexDirection: 'column', gap: 1 }}>
+            <Typography variant="caption" color="text.secondary" align="center">
+              {t('login.quickLoginDevOnly')}
+            </Typography>
+            <Button
+              variant="outlined"
+              size="small"
+              onClick={() => handleQuickLogin('user@example.com', 'password123')}
+            >
+              {t('login.loginAsUser')}
+            </Button>
+            <Button
+              variant="outlined"
+              size="small"
+              onClick={() => handleQuickLogin('admin@example.com', 'password123')}
+            >
+              {t('login.loginAsAdmin')}
+            </Button>
+          </Box>
 
           <Divider sx={{ my: 2 }}>
             <Typography variant="body2" color="text.secondary">{t('login.or')}</Typography>
